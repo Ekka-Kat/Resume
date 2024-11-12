@@ -1,0 +1,38 @@
+@media (max-width: 470px) {
+ .container {
+    max-width: 470px;
+  }
+  .df-align-center-justify {
+    display: grid;
+    grid-template-rows: auto;
+  }
+
+  .my-avatar {
+    width: 60%;
+    height: 600%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+   }
+
+   .photo-name-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px
+   }
+
+   .name-wrapper {
+    max-width: 80%;
+    gap: 10px;
+    align-items: center;
+    border-bottom: solid 1px var(--dim-grey)
+  }
+
+  .links-wrapper {
+    gap: 10px;
+    margin: 0 auto;
+  }
+
+  .span-container {
+    grid-column: span 2;
+  }
+}
